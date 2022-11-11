@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>TODO</title>
+</head>
+<body class="page">
+  <header class="header page__section">
+    <h1 class="header__title">TODO List</h1>
+  </header>
+  <main class="content">
+    <section class="todo">
+      <form class="form">
+        <input class="form__input" placeholder="next todo is...">
+        <button class="form__button" type="submit">Add</button>
+      </form>
+      <ul class="todo-list">
+
+      </ul>
+    </section>
+  </main>
+  <footer class="footer page__section">
+    <p class="footer__copyright">Marina</p>
+  </footer>
+
+  <script src="./script.js" defer></script>
+
+  <template id="todo-template">
+    <li class="todo-card">
+      <h3 class="todo-card__title"></h3>
+      <div class="todo-card__controls">
+        <button class="todo-card__button todo-card__button_check"></button>
+        <button class="todo-card__button todo-card__button_delete"></button>
+      </div>
+    </li>
+  </template>
+    
+</body>
+</html>

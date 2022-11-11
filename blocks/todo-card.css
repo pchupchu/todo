@@ -1,0 +1,41 @@
+.todo-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(56, 36, 36);
+  padding: 0 15px;
+}
+
+.todo-card__controls {
+  display: flex;
+}
+
+.todo-card__button {
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  opacity: 1;
+  transition: opacity 0.5s linear;
+  border: none;
+}
+
+.todo-card__button:hover {
+  opacity: .3;
+}
+
+.todo-card__button_check {
+  cursor: pointer;
+  background: url(../images/done_FILL0_wght400_GRAD0_opsz48.svg);
+  background-size: cover;
+}
+
+.todo-card__button_delete {
+  cursor: pointer;
+  background: url(../images/delete_FILL0_wght400_GRAD0_opsz48.svg);
+  background-size: cover;
+}
+
+.todo-card_checked {
+  text-decoration: line-through double black;
+}
