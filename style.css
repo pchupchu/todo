@@ -17,10 +17,6 @@
   justify-content: center;
 }
 
-.todo-card:active {
-  cursor: grabbing;
-}
-
 .selected {
   opacity: 0.6;
 }

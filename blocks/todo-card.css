@@ -4,6 +4,7 @@
   justify-content: space-between;
   width: 100%;
   background-color: rgb(56, 36, 36);
+  border-radius: 4px;
   padding: 0 15px;
 }
 
@@ -38,4 +39,8 @@
 
 .todo-card_checked {
   text-decoration: line-through double black;
+}
+
+.todo-card:active {
+  cursor: grabbing;
 }
